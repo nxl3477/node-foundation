@@ -1,0 +1,25 @@
+{
+  "name": "img-mark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "koa": "^2.7.0",
+    "koa-art-template": "^1.1.1",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.11",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "koa-router": "^7.4.0",
+    "koa-swig": "^2.2.1"
+  }
+}

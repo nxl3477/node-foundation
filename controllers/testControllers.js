@@ -3,7 +3,7 @@
  * @author nixiaolei@nxl3477@foxmail.com
  */
 
-class test {
+class Test {
   constructor() {
     
   }
@@ -39,4 +39,4 @@ class test {
 }
 
 
-module.exports = new test()
+module.exports = Test

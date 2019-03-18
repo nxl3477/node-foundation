@@ -1,0 +1,6 @@
+[2019-03-18T14:22:56.927] [INFO] access - ::1 - - "GET /api/test HTTP/1.1" 401 43 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-03-18T14:22:57.159] [INFO] access - ::1 - - "GET /api/test HTTP/1.1" 401 43 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-03-18T14:22:57.396] [INFO] access - ::1 - - "GET /api/test HTTP/1.1" 401 43 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-03-18T14:22:57.470] [INFO] access - ::1 - - "GET /api/test HTTP/1.1" 401 43 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-03-18T14:22:57.723] [INFO] access - ::1 - - "GET /api/test HTTP/1.1" 401 43 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[2019-03-18T14:22:58.072] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 401 43 "http://localhost:3000/api/test" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"

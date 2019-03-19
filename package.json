@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "start": "pm2 start pm2.json",
+    "stop": "pm2 stop all"
   },
   "keywords": [],
   "author": "",
@@ -16,13 +18,18 @@
     "knex": "^0.16.3",
     "koa": "^2.7.0",
     "koa-art-template": "^1.1.1",
+    "koa-bodyparser": "^4.2.1",
     "koa-jwt": "^3.5.1",
     "koa-log4": "^2.3.2",
     "koa-static": "^5.0.0",
     "koa2-cors": "^2.0.6",
     "lodash": "^4.17.11",
+    "md5": "^2.2.1",
     "mysql": "^2.16.0",
-    "redis": "^2.8.0"
+    "pm2": "^3.4.0",
+    "redis": "^2.8.0",
+    "validator": "^10.11.0",
+    "yargs": "^13.2.2"
   },
   "devDependencies": {
     "koa-router": "^7.4.0",

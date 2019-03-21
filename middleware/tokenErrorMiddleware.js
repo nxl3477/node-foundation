@@ -1,5 +1,8 @@
+const { logger } = require('../utils/log4');
+
 module.exports = app => {
   app.use((ctx, next) => next().catch((err) => {
+    logger.error(err);
     if (err.status === 401) {
         ctx.status = 401;
         ctx.body = {

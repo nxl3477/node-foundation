@@ -3,7 +3,7 @@
  * @author nixiaolei
  */
 const createVerify = require('../utils/paramVerify');
-
+const _ = require('lodash')
 
 class Img {
   constructor({
@@ -20,6 +20,16 @@ class Img {
       const {
         count
       } = ctx.request.query
+      if( _.isUndefined(count) ) {
+        ctx.status = 401
+        return ctx.body = {
+          code: 401,
+          data: '',
+          msg: '参数错误'
+        }
+      } 
+
+
       // 参数校验
       if (!this.selectRule(count).status && !isNaN(count)) {
         ctx.status = 403
@@ -55,6 +65,15 @@ class Img {
         pid,
         score
       } = ctx.request.body
+
+      if( _.isUndefined(pid) || _.isUndefined(score) ) {
+        ctx.status = 401
+        return ctx.body = {
+          code: 401,
+          data: '',
+          msg: '参数错误'
+        }
+      } 
 
       if (!this.gradeRule([pid, score]).status && !isNaN(pid) && !isNaN(score)) {
         ctx.status = 401

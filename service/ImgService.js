@@ -15,7 +15,7 @@ class ImgService {
       const [ userInfo ] = await DB.select().where({ id: uid }).from('user')
       const last_id = userInfo.last_id
       // 根据用户的count 获取接下来的图片， 最多10张
-      result.data = await DB.select().where('id', '>', last_id).limit(count).from('img')
+      result.data = await DB.select('id', 'src', 'w', 'h').where('id', '>', last_id).limit(count).from('img')
     }catch(e) {
       result.error = true
       result.errorMsg = e

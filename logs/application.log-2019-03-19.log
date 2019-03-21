@@ -1,0 +1,223 @@
+[2019-03-19T10:30:21.366] [ERROR] application - TypeError: this.selectRule is not a function
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\controllers\userControllers.js:26:17
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-static\index.js:53:15)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-bodyparser\index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-03-19T10:31:13.267] [ERROR] application - TypeError: Expected string but received a undefined.
+    at assertString (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isAscii (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\isAscii.js:17:29)
+    at ruleArr.every (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:76)
+    at Array.every (<anonymous>)
+    at value.map (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:47)
+    at Array.map (<anonymous>)
+    at User.userRule (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:28)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\controllers\userControllers.js:26:17
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-static\index.js:53:15)
+[2019-03-19T10:31:49.687] [ERROR] application - ReferenceError: data is not defined
+    at UserService.userLogin (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\service\UserService.js:20:5)
+[2019-03-19T10:38:59.808] [ERROR] application - Error: Expected "payload" to be a plain object.
+    at validate (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\jsonwebtoken\sign.js:40:11)
+    at validatePayload (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\jsonwebtoken\sign.js:62:10)
+    at Object.module.exports [as sign] (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\jsonwebtoken\sign.js:114:7)
+    at exports.sign (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\jwt.js:5:33)
+    at UserService.userLogin (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\service\UserService.js:26:21)
+[2019-03-19T10:44:06.089] [ERROR] application - TypeError: Cannot read property 'error' of undefined
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\controllers\userControllers.js:34:21
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-03-19T10:45:57.365] [ERROR] application - TypeError: Cannot read property 'error' of undefined
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\controllers\userControllers.js:34:21
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-03-19T10:51:25.244] [ERROR] application - TypeError: Expected string but received a undefined.
+    at assertString (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isAscii (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\isAscii.js:17:29)
+    at ruleArr.every (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:76)
+    at Array.every (<anonymous>)
+    at value.map (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:47)
+    at Array.map (<anonymous>)
+    at User.userRule (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:28)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\controllers\userControllers.js:53:17
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-static\index.js:53:15)
+[2019-03-19T10:52:09.031] [ERROR] application - TypeError: Expected string but received a undefined.
+    at assertString (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isAscii (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\isAscii.js:17:29)
+    at ruleArr.every (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:76)
+    at Array.every (<anonymous>)
+    at value.map (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:47)
+    at Array.map (<anonymous>)
+    at User.userRule (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:28)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\controllers\userControllers.js:55:17
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-static\index.js:53:15)
+[2019-03-19T10:52:31.748] [ERROR] application - TypeError: Expected string but received a undefined.
+    at assertString (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isAscii (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\isAscii.js:17:29)
+    at ruleArr.every (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:76)
+    at Array.every (<anonymous>)
+    at value.map (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:47)
+    at Array.map (<anonymous>)
+    at User.userRule (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:28)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\controllers\userControllers.js:55:17
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-static\index.js:53:15)
+[2019-03-19T11:33:13.063] [ERROR] application - TypeError: Expected string but received a undefined.
+    at assertString (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isAscii (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\isAscii.js:17:29)
+    at ruleArr.every (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:76)
+    at Array.every (<anonymous>)
+    at value.map (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:47)
+    at Array.map (<anonymous>)
+    at Img.gradeRule (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:28)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\controllers\imgControllers.js:58:17
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-static\index.js:53:15)
+[2019-03-19T11:34:08.761] [ERROR] application - TypeError: Expected string but received a undefined.
+    at assertString (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isAscii (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\isAscii.js:17:29)
+    at ruleArr.every (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:76)
+    at Array.every (<anonymous>)
+    at value.map (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:47)
+    at Array.map (<anonymous>)
+    at Img.gradeRule (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:28)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\controllers\imgControllers.js:58:17
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-static\index.js:53:15)
+[2019-03-19T11:52:09.422] [ERROR] application - ReferenceError: offset is not defined
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\controllers\imgControllers.js:24:36
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-static\index.js:53:15)
+[2019-03-19T11:52:46.085] [ERROR] application - ReferenceError: offset is not defined
+    at ImgService.findImg (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\service\ImgService.js:13:26)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\controllers\imgControllers.js:35:44
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-static\index.js:53:15)
+[2019-03-19T14:58:34.601] [ERROR] application - TypeError: Expected string but received a undefined.
+    at assertString (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isAscii (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\isAscii.js:17:29)
+    at ruleArr.every (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:76)
+    at Array.every (<anonymous>)
+    at value.map (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:47)
+    at Array.map (<anonymous>)
+    at User.userRule (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\utils\paramVerify.js:13:28)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\controllers\userControllers.js:18:17
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-static\index.js:53:15)
+[2019-03-19T15:12:49.827] [ERROR] application - TypeError: Expected string but received a undefined.
+    at assertString (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\isEmpty.js:19:29)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\controllers\userControllers.js:19:21
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-static\index.js:53:15)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-bodyparser\index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-03-19T15:13:31.994] [ERROR] application - TypeError: Expected string but received a undefined.
+    at assertString (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\util\assertString.js:28:11)
+    at Object.isEmpty (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\validator\lib\isEmpty.js:19:29)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\controllers\userControllers.js:19:21
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-static\index.js:53:15)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-bodyparser\index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-03-19T15:15:41.388] [ERROR] application - TypeError: validator.isNull is not a function
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\controllers\userControllers.js:19:21
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-static\index.js:53:15)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-bodyparser\index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-03-19T15:15:43.014] [ERROR] application - TypeError: validator.isNull is not a function
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\controllers\userControllers.js:19:21
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-static\index.js:53:15)
+    at dispatch (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\nxl\Desktop\work_space\node-pro\img-mark\node_modules\koa-bodyparser\index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)

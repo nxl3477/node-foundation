@@ -1,5 +1,6 @@
 const middleWareQueue = [
   require('./log4Middleware'),  // 日志
+  require('./devLoggerMiddleware'),  // cmd 的开发日志
   require('./corsMiddleware'),  // 解决跨域
   require('./tokenErrorMiddleware'),  // jwt 错误处理
   require('./jwtMiddleware'),   // 验证jwt
